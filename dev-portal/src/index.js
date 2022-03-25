@@ -19,6 +19,7 @@ import GettingStarted from 'pages/GettingStarted'
 import Dashboard from 'pages/Dashboard'
 import Apis from 'pages/Apis'
 import { Admin } from 'pages/Admin'
+import Guides from 'pages/Guides'
 
 // components
 import AlertPopup from 'components/AlertPopup'
@@ -98,6 +99,7 @@ class App extends React.Component {
               }}
             />
             <Route path='/getting-started' component={GettingStartedWrap} />
+            <Route path='/guides' component={Guides} />
             <RegisteredRoute path='/dashboard' component={DashboardWrap} />
             <AdminRoute path='/admin' component={Admin} />
             <Route exact path='/apis' component={Apis} />
